@@ -11,7 +11,10 @@ export class RedisLimiter extends Limiter {
 
   constructor(options: RedisLimiterOptions) {
     super(options);
-    this.db = options.db || new Redis();
+    this.db = options.db || new Redis({
+      host: process.env.REDIS_HOST,
+      port: process.env.REDIS_PORT ? parseInt(process.env.REDIS_PORT) : undefined
+    });
   }
 
   async get(): Promise<Limit> {
