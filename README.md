@@ -1,4 +1,4 @@
-# koa-rate-limiter
+# koa-rate-limit-middleware
 
 Rate limiter middleware for koa
 
