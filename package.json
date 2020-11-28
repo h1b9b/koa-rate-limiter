@@ -1,11 +1,18 @@
 {
   "name": "koa-rate-limit-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rate limiter middleware for koa",
   "main": "dist/index.js",
   "author": "h1b9b",
   "license": "MIT",
-  "keywords": ["koa", "rate-limit", "middleware", "request-limit", "redis", "in-memory"],
+  "keywords": [
+    "koa",
+    "rate-limit",
+    "middleware",
+    "request-limit",
+    "redis",
+    "in-memory"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest"
