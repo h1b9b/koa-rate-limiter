@@ -1,6 +1,6 @@
 {
   "name": "koa-rate-limit-middleware",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Rate limiter middleware for koa",
   "main": "dist/index.js",
   "author": "h1b9b",
