@@ -1,0 +1,8 @@
+src/
+test/
+.vscode/
+.github/
+.env
+.eslintrc.json
+tsconfig.json
+jest.config.js
